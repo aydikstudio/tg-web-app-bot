@@ -31,16 +31,16 @@ bot.on('message', async (msg) => {
         }
     });
 
-    await bot.sendMessage(chatId, 'shop', {
-        reply_markup: {
-            inline_keyboard:[
-                [{
-                    text: 'Make order',
-                    web_app: {url: site}
-                }]
-            ]
-        }
-    });
+    // await bot.sendMessage(chatId, 'shop', {
+    //     reply_markup: {
+    //         inline_keyboard:[
+    //             [{
+    //                 text: 'Make order',
+    //                 web_app: {url: site}
+    //             }]
+    //         ]
+    //     }
+    // });
   }
 
   if(msg?.web_app_data?.data) {
