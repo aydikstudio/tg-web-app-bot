@@ -61,7 +61,7 @@ bot.on('message', async (msg) => {
 });
 
 app.post('/web-data', async (req, res) => {
-    console.log("WWWW")
+    console.log("WWWWeee")
     const {queryId, products, totalPrice} = req.body;
     try {
         await bot.answerWebAppQuery(queryId, {
