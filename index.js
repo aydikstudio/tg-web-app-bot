@@ -85,11 +85,7 @@ app.post('/web-data', async (req, res) => {
 })
 
 
-app.get('/web-data', async (req, res) => {
-    console.log("WWWWeee")
-  
-    
-})
+
 
 const PORT = 8000;
 
